@@ -36,7 +36,7 @@ pub fn solve() {
             None => break,
         };
     }
-    let answer = potential_answers.iter().max();
+    let answer = potential_answers.iter().max().unwrap_or(&0);
     println!("Answer is: {:?}", answer);
 }
 

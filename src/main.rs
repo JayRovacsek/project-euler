@@ -26,6 +26,7 @@ fn match_puzzle(option: u8) {
         6 => euler_project::six::solve(),
         7 => euler_project::seven::solve(),
         8 => euler_project::eight::solve(),
+        9 => euler_project::nine::solve(),
         _ => {
             let u: u8 = input::get_rand_u8(7);
             println!("Failed to parse a suitable number from input, let's enjoy some chaos and choose a random one...");
